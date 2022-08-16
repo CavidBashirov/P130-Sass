@@ -1,0 +1,68 @@
+@import "../../partials/variables";
+@import "../../partials/mixins";
+@import "../../components/password-btn";
+@import "../../layout/footer";
+
+
+
+%text-size{
+    font-size: 60px;
+}
+
+
+
+#box-area {
+    background-color: $bg-main-color;
+    padding: 20px;
+
+
+    .box {
+
+        p:nth-child(1) {
+            color: $main-color;
+            font-size: $main-font-size;
+
+            &:hover {
+                color: greenyellow;
+            }
+
+            &::after {
+                content: "salamlar";
+            }
+
+        }
+
+        p:nth-child(2) {
+            font-size: 50px;
+            color: red;
+            padding: $main-card-padding + 10;
+
+        }
+    }
+
+    p{
+        @include text-design;
+    }
+
+    .text-btn {
+        width: 100px;
+        height: 100px;
+
+        &:hover {
+            width: 300px;
+        }
+    }
+
+    span {
+        color: red;
+        @extend %text-size;
+    }
+
+    .email{
+        &:hover{
+            @include button-hover(50px,red,green);
+        }
+    }
+
+
+}

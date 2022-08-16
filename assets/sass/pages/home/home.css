@@ -1,0 +1,58 @@
+#box-area .password {
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+#footer-area {
+  background-color: red;
+}
+#footer-area p {
+  color: green;
+}
+
+#box-area span {
+  font-size: 60px;
+}
+
+#box-area {
+  background-color: black;
+  padding: 20px;
+}
+#box-area .box p:nth-child(1) {
+  color: green;
+  font-size: 20px;
+}
+#box-area .box p:nth-child(1):hover {
+  color: greenyellow;
+}
+#box-area .box p:nth-child(1)::after {
+  content: "salamlar";
+}
+#box-area .box p:nth-child(2) {
+  font-size: 50px;
+  color: red;
+  padding: 30px;
+}
+#box-area p {
+  font-size: 30px;
+  color: hotpink;
+  border: 1px solid black;
+}
+#box-area .text-btn {
+  width: 100px;
+  height: 100px;
+}
+#box-area .text-btn:hover {
+  width: 300px;
+}
+#box-area span {
+  color: red;
+}
+#box-area .email:hover {
+  font-size: 50px;
+  color: green;
+  border: 1px solid black;
+  background-color: red;
+}/*# sourceMappingURL=home.css.map */
